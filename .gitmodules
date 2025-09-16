@@ -1,0 +1,3 @@
+[submodule "dailyfeed-image"]
+	path = dailyfeed-image
+	url = https://github.com/alpha3002025/dailyfeed-image.git
