@@ -1,1 +1,1 @@
-./gradlew bootRun --args='--spring.profiles.active=local' 2>&1 | tee dailyfeed-image.log
+./gradlew :dailyfeed-image:bootRun --args='--spring.profiles.active=local' 2>&1 | tee dailyfeed-image.log
