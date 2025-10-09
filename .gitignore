@@ -7,6 +7,7 @@ build/
 tmp
 dailyfeed-image/tmp
 dailyfeed-image.log
+app-helm/dailyfeed-backend-chart
 
 ### STS ###
 .apt_generated
