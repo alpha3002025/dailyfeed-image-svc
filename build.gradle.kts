@@ -47,8 +47,13 @@ project(":dailyfeed-image") {
 
         // 타겟 이미지 설정
         to {
-            tags = setOf("0.0.3")
+            tags = setOf("0.0.6")
             image = "alpha300uk/dailyfeed-image-svc"
+        }
+
+        // Docker 실행 파일 경로 명시
+        dockerClient {
+            executable = "/usr/local/bin/docker"
         }
 
         // 컨테이너 설정
